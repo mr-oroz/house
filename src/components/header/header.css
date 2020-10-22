@@ -1,0 +1,49 @@
+
+.nav-items, .nav-settings  {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    order: -1;
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navbar li {
+    padding: 0 12px;
+}
+.navbar li a{
+    color: inherit;
+    font-weight: bold;
+}
+.navbar li .line {
+    height: 2px;
+    display: block;
+    background-color: #ff8562;
+    width: 0;
+    margin: auto;
+    transition: width 0.5s;
+}
+.navbar li:hover .line {
+    width: 100%;
+}
+.nav-settings li:hover a {
+    color: #ff8562;
+}
+.navbar .nav-container {
+    justify-items: initial;
+}
+
+.nav-items {
+    margin-left: auto;
+    padding-right: 12px;
+}
+
+.nav-settings {
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
