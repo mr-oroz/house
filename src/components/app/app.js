@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from "../header";
 import CarouselSelf from "../carousel";
+import Atom from "../atom/atom";
 
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
             <div>
                 <Header/>
                 <CarouselSelf/>
+                <Atom/>
             </div>
         );
     }

@@ -1,0 +1,30 @@
+.my-atom {
+    position: relative;
+    top: 150px;
+    padding: initial;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.th-atom-img {
+    width: 180px;
+}
+
+.th-text {
+    font-size: 45px;
+}
+
+.th-text1 {
+    font-size: 15px;
+}
+
+.th-text, .th-text1 {
+    color: #4c4d4f;
+    font-family: 'Gotha', Arial, sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
