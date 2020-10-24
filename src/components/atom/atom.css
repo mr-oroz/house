@@ -1,6 +1,6 @@
 .my-atom {
     position: relative;
-    top: 150px;
+    top: 120px;
     padding: initial;
     margin: auto;
     display: table-cell;
@@ -8,15 +8,21 @@
 }
 
 .th-atom-img {
-    width: 180px;
+    width: 120px;
 }
 
 .th-text {
     font-size: 45px;
+    position: absolute;
+    top: 15px;
+    margin-left: 15px;
 }
 
 .th-text1 {
-    font-size: 15px;
+    font-size: 20px;
+    position: absolute;
+    top: 70px;
+    margin-left: 15px;
 }
 
 .th-text, .th-text1 {
